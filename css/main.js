@@ -16,22 +16,23 @@ console.log(reelTrack);
 let video = 0;
 
 
-for( let i = reelsArray.length - 1 ;i>= 0;i--){
+// for( let i = reelsArray.length - 1 ;i>= 0;i--){
 
-     video = reelsArray[i].querySelector('video'); // get the video inside the reel
+//      video = reelsArray[i].querySelector('video'); // get the video inside the reel
     
    
     
     
-    if (!video || !video.src || video.src.trim() === "" || video.src.endsWith("#")) {
+//     if (!video || !video.src || video.src.trim() === "" || video.src.endsWith("#")) {
      
-        reelsArray[i].remove(); // remove the reel div
+//         reelsArray[i].remove(); // remove the reel div
 
-    }
+//     }
      
        
 
 
 
-}
+// }
+
 
